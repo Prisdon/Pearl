@@ -1,4 +1,4 @@
-CKEditor 4
+Prisdon
 ==========
 
 Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.  
