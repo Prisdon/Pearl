@@ -1,61 +1,39 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gomah/bluise)
+CKEditor 4
+==========
 
-# Bluise - A Nuxt.js & Netlify CMS boilerplate.
+Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.  
+http://ckeditor.com - See LICENSE.md for license information.
 
-I wanted to explore Netlify CMS & Tailwind CSS, ended up creating this boilerplate.
+CKEditor is a text editor to be used inside web pages. It's not a replacement
+for desktop text editors like Word or OpenOffice, but a component to be used as
+part of web applications and websites.
 
-So far we've got:
+## Documentation
 
-- Blog w/ posts, including pagination.
-- Configurable manifest & global settings.
-- CSS Markdown (Thanks to [https://github.com/iandinwoodie/github-markdown-tailwindcss/blob/master/markdown.css]).
-- Dynamic pages.
-- PWA ready.
-- SEO ready for posts & pages.
-- Signup form (using Netlify Forms).
-- Tools (Commitlint, Husky).
-- Typescript.
+The full editor documentation is available online at the following address:
+http://docs.ckeditor.com
 
-Few things I'd like to add in the future:
+## Installation
 
-- Contact form under \_slug.
-- Dynamic sections/widgets.
-- Responsive CSS markdown.
-- Tests
+Installing CKEditor is an easy task. Just follow these simple steps:
 
-## Quickstart
+ 1. **Download** the latest version from the CKEditor website:
+    http://ckeditor.com. You should have already completed this step, but be
+    sure you have the very latest version.
+ 2. **Extract** (decompress) the downloaded file into the root of your website.
 
-### Prerequisites
+**Note:** CKEditor is by default installed in the `ckeditor` folder. You can
+place the files in whichever you want though.
 
-- [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab)
-- [Node.js](https://nodejs.org/en/)
+## Checking Your Installation
 
-```bash
-# ensure you have the prerequisites
-# install
-brew install node && brew install yarn
+The editor comes with a few sample pages that can be used to verify that
+installation proceeded properly. Take a look at the `samples` directory.
 
-# OR update
-brew update && brew upgrade && brew install yarn
+To test your installation, just call the following page at your website:
 
-# install dependencies
-yarn install
+	http://<your site>/<CKEditor installation path>/samples/index.html
 
-# serve with hot reload at localhost:3000
-yarn dev
+For example:
 
-# build for production with minification
-yarn generate
-
-# run all tests
-yarn test
-```
-
-### Using Netlify CMS
-
-1. Deploy to Netlify.
-2. Enable Identity under Settings.
-3. Configure registration preferences & external providers if needed.
-4. Enable Git Gateway.
-
-_Note: You'll need to specify the Netlify URL when browsing the admin page locally._
+	http://www.example.com/ckeditor/samples/index.html
